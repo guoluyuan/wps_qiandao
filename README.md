@@ -6,7 +6,7 @@
 
 2.登陆后在当前页面F12打开控制台
 
-![image-20230829190640714](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230829190640714.png)
+![image-20230829190640714](./操作.png)
 
 填入run.py中即可
 
