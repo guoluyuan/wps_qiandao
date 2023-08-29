@@ -1,8 +1,13 @@
-# wps-
-用于每日打卡领取wps空间
-run.py中的wps_sid
-可以前往https://zt.wps.cn/
-##
-登录获取(F12)
-注意（不要在#https://zt.wps.cn#/登录获取wps_sid后就在这个网页的退出按钮那点退出了，点击退出，那获取的sid就会失效，建议获取后直接关闭网页即可）
+# WPS签到领取空间
 
+获取执行需要的wps_sid
+
+1.首先打开https://zt.wps.cn/
+
+2.登陆后在当前页面F12打开控制台
+
+![image-20230829190640714](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230829190640714.png)
+
+填入run.py中即可
+
+注意在当前页面获取了wps_sid后不要点退出登录，关掉网页即可(点击退出会使得获取的wps_sid失效)
