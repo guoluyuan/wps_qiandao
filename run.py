@@ -165,7 +165,7 @@ def sign_kongjian(captcha_pos,sid,name):
         "accept": "*/*",
     }
     url = "https://vip.wps.cn/sign/v2"
-    body = f"platform=8&captcha_pos={quote(captcha_pos)}&img_witdh=336&img_height=84.48"
+    body = f"platform=8&captcha_pos={quote(captcha_pos)}&img_witdh=336&img_height=84"
     print(body)
     ret = requests.post(url=url, headers=headers, data=body).json()
     print(ret)
